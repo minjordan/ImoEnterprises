@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
-    <members>*</members>
-    <name>ApexClass</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>ApexPage</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>CompactLayout</name>
-  </types>
-  <types>
-    <members>*</members>
-    <name>ContentAsset</name>
-  </types>
-  <types>
     <members>Change_Log__c</members>
     <name>CustomObject</name>
   </types>
@@ -31,6 +15,33 @@
   <types>
     <members>Change_Log__c.All</members>
     <name>ListView</name>
+  </types>
+  <types>
+    <members>ImoEnterprises</members>
+    <name>CustomApplication</name>
+  </types>
+  <types>
+    <members>AppSwitcher</members>
+    <name>AppMenu</name>
+  </types>
+  <types>
+    <members>Imo_Enterprises_UtilityBar</members>
+    <name>FlexiPage</name>
+  </types>
+  <types>
+    <members>Admin</members>
+    <members>ImoESuperUser</members>
+    <name>Profile</name>
+  </types>
+  <types>
+    <members>PT1_profilePasswordPolicy1635098994861</members>
+    <members>ImoESuperUser_profilePasswordPolicy1635098549159</members>
+    <name>ProfilePasswordPolicy</name>
+  </types>
+  <types>
+    <members>PT1_profilePasswordPolicy1635098994861</members>
+    <members>ImoESuperUser_profileSessionSetting1635098549290</members>
+    <name>ProfileSessionSetting</name>
   </types>
   <version>53.0</version>
 </Package>
