@@ -9,12 +9,12 @@
     <fieldPermissions>
         <editable>false</editable>
         <field>Change_Log__c.CLExtID__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>false</editable>
+        <editable>true</editable>
         <field>Change_Log__c.Description__c</field>
-        <readable>false</readable>
+        <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
         <layout>Change_Log__c-Change Log Layout</layout>
