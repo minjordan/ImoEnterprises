@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type__c</fullName>
+    <externalId>false</externalId>
+    <label>Type</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>NA</fullName>
+                <default>true</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Research</fullName>
+                <default>false</default>
+                <label>Research</label>
+            </value>
+            <value>
+                <fullName>Business Plan</fullName>
+                <default>false</default>
+                <label>Business Plan</label>
+            </value>
+            <value>
+                <fullName>Site Build</fullName>
+                <default>false</default>
+                <label>Site Build</label>
+            </value>
+            <value>
+                <fullName>Launch</fullName>
+                <default>false</default>
+                <label>Launch</label>
+            </value>
+            <value>
+                <fullName>Operating Documents</fullName>
+                <default>false</default>
+                <label>Operating Documents</label>
+            </value>
+            <value>
+                <fullName>Software</fullName>
+                <default>false</default>
+                <label>Software</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

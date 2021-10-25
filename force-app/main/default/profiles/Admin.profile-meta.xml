@@ -16,8 +16,70 @@
         <field>Change_Log__c.Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>KBCard__c.Description__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>KBCard__c.Entity__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>KBCard__c.KBCExtID__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>KBCard__c.Level__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>KBCard__c.ParentKBCard__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>KBCard__c.Status__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>KBCard__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Change_Log__c-Change Log Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KBCard__c-KBCard Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KBCard__c-KBCard Layout</layout>
+        <recordType>KBCard__c.Capability</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KBCard__c-KBCard Layout</layout>
+        <recordType>KBCard__c.Epic</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KBCard__c-KBCard Layout</layout>
+        <recordType>KBCard__c.Feature</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KBCard__c-KBCard Layout</layout>
+        <recordType>KBCard__c.Program</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KBCard__c-KBCard Layout</layout>
+        <recordType>KBCard__c.Project</recordType>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KBCard__c-KBCard Layout</layout>
+        <recordType>KBCard__c.Story</recordType>
     </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
@@ -28,8 +90,51 @@
         <object>Change_Log__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>KBCard__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>KBCard__c.Capability</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>KBCard__c.Epic</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>KBCard__c.Feature</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>KBCard__c.Program</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>false</default>
+        <recordType>KBCard__c.Project</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
+    <recordTypeVisibilities>
+        <default>true</default>
+        <recordType>KBCard__c.Story</recordType>
+        <visible>true</visible>
+    </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Change_Log__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>KBCard__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <userLicense>Salesforce</userLicense>

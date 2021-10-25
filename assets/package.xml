@@ -2,18 +2,36 @@
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
     <members>Change_Log__c</members>
+    <members>KBCard__c</members>
     <name>CustomObject</name>
   </types>
   <types>
+    <members>KBCard__c</members>
     <members>Change_Log__c</members>
     <name>CustomTab</name>
   </types>
   <types>
+    <members>KBCard__c.KBCard_CL</members>
+    <name>CompactLayout</name>
+  </types>
+  <types>
+    <members>KBCard_Lightning</members>
+    <name>FlexiPage</name>
+  </types>
+  <types>
     <members>Change_Log__c-Change Log Layout</members>
+    <members>KBCard__c-KBCard Layout</members>
     <name>Layout</name>
   </types>
   <types>
     <members>Change_Log__c.All</members>
+    <members>KBCard__c.All</members>
+    <members>KBCard__c.Capabilities</members>
+    <members>KBCard__c.Epics</members>
+    <members>KBCard__c.Features</members>
+    <members>KBCard__c.Programs</members>
+    <members>KBCard__c.Projects</members>
+    <members>KBCard__c.Stories</members>
     <name>ListView</name>
   </types>
   <types>
@@ -42,6 +60,15 @@
     <members>PT1_profilePasswordPolicy1635098994861</members>
     <members>ImoESuperUser_profileSessionSetting1635098549290</members>
     <name>ProfileSessionSetting</name>
+  </types>
+  <types>
+    <members>KBCard__c.Capability</members>
+    <members>KBCard__c.Epic</members>
+    <members>KBCard__c.Feature</members>
+    <members>KBCard__c.Program</members>
+    <members>KBCard__c.Project</members>
+    <members>KBCard__c.Story</members>
+    <name>RecordType</name>
   </types>
   <version>53.0</version>
 </Package>

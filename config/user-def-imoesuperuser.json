@@ -1,0 +1,14 @@
+{
+    "Username": "stestsuperuser@imoe.org",
+    "FirstName": "test",
+    "LastName": "superuser",
+    "Email": "minjordan@hotmail.com",
+    "Alias": "testsupe",
+    "TimeZoneSidKey": "America/Denver",
+    "LocaleSidKey": "en_US",
+    "EmailEncodingKey": "UTF-8",
+    "LanguageLocaleKey": "en_US",
+    "profileName": "ImoESuperUser",
+    "permsets": [],
+    "generatePassword": true
+}

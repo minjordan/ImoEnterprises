@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>KBCard_CL</fullName>
+    <fields>Name</fields>
+    <fields>KBCExtID__c</fields>
+    <fields>ParentKBCard__c</fields>
+    <fields>Entity__c</fields>
+    <fields>Type__c</fields>
+    <fields>RecordTypeId</fields>
+    <fields>Status__c</fields>
+    <label>KBCard CL</label>
+</CompactLayout>
