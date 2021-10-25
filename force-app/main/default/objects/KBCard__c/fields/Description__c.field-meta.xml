@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>CLExtID__c</fullName>
-    <displayFormat>CLExtID-{0000}</displayFormat>
+    <fullName>Description__c</fullName>
     <externalId>false</externalId>
-    <label>CLExtID</label>
+    <label>Description</label>
+    <length>32768</length>
     <trackTrending>false</trackTrending>
-    <type>AutoNumber</type>
+    <type>Html</type>
+    <visibleLines>25</visibleLines>
 </CustomField>

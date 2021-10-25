@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Story</fullName>
+    <active>true</active>
+    <compactLayoutAssignment>KBCard_CL</compactLayoutAssignment>
+    <label>Story</label>
+    <picklistValues>
+        <picklist>Entity__c</picklist>
+        <values>
+            <fullName>Imo Apartments %28LL%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imo Coffee %26 Bookstore %28CB%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imo Enterprises %28IE%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imo Ice Cream %26 Goods %28IG%29</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status__c</picklist>
+        <values>
+            <fullName>1-Backlog</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>2-In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>3-Completed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4-Cancelled</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type__c</picklist>
+        <values>
+            <fullName>NA</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+</RecordType>
