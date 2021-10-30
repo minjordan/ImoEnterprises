@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Epics</fullName>
+    <columns>KBCard_ID__c</columns>
     <columns>KBCExtID__c</columns>
     <columns>NAME</columns>
     <columns>ParentKBCard__c</columns>

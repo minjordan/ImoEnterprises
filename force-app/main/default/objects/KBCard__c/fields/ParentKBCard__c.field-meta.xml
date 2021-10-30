@@ -4,6 +4,62 @@
     <deleteConstraint>SetNull</deleteConstraint>
     <externalId>false</externalId>
     <label>Parent KBCard</label>
+    <lookupFilter>
+        <active>true</active>
+        <booleanFilter>(1 AND 2) OR (3 AND 4) OR (5 AND 6) OR (7 AND 8) OR (9 AND 10)</booleanFilter>
+        <errorMessage>Only one level difference allowed on the Record Type.</errorMessage>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Story</value>
+        </filterItems>
+        <filterItems>
+            <field>KBCard__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Feature</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Feature</value>
+        </filterItems>
+        <filterItems>
+            <field>KBCard__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Epic</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Epic</value>
+        </filterItems>
+        <filterItems>
+            <field>KBCard__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Capability</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Capability</value>
+        </filterItems>
+        <filterItems>
+            <field>KBCard__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Project</value>
+        </filterItems>
+        <filterItems>
+            <field>$Source.RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Project</value>
+        </filterItems>
+        <filterItems>
+            <field>KBCard__c.RecordType.Name</field>
+            <operation>equals</operation>
+            <value>Program</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
     <referenceTo>KBCard__c</referenceTo>
     <relationshipLabel>Child KBCards</relationshipLabel>
     <relationshipName>KBCards</relationshipName>
