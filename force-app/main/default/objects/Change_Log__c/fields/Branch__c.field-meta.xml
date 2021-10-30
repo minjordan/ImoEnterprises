@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Change_Date__c</fullName>
-    <defaultValue>TODAY()</defaultValue>
+    <fullName>Branch__c</fullName>
     <externalId>false</externalId>
-    <label>Change Date</label>
-    <required>true</required>
+    <label>Branch</label>
+    <length>100</length>
+    <required>false</required>
     <trackTrending>false</trackTrending>
-    <type>Date</type>
+    <type>Text</type>
+    <unique>false</unique>
 </CustomField>

@@ -11,6 +11,7 @@
     <label>Imo Enterprises</label>
     <navType>Standard</navType>
     <tabs>Change_Log__c</tabs>
+    <tabs>KBCard__c</tabs>
     <tabs>standard-report</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Imo_Enterprises_UtilityBar</utilityBar>

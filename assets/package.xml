@@ -70,5 +70,13 @@
     <members>KBCard__c.Story</members>
     <name>RecordType</name>
   </types>
+  <types>
+    <members>KBCard__c.Program_Highest_Level</members>
+    <name>ValidationRule</name>
+  </types>
+  <types>
+    <members>KBCard__c.KBCAN__c</members>
+    <name>CustomIndex</name>
+  </types>
   <version>53.0</version>
 </Package>
