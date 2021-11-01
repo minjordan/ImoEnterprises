@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Hierarchy_Sort</fullName>
+    <columns>HierarchySort__c</columns>
+    <columns>RECORDTYPE</columns>
+    <columns>NAME</columns>
+    <columns>Entity__c</columns>
+    <columns>Type__c</columns>
+    <columns>Status__c</columns>
+    <columns>KBCExtID__c</columns>
+    <columns>KBCard_ID__c</columns>
+    <filterScope>Everything</filterScope>
+    <label>Hierarchy Sort</label>
+</ListView>

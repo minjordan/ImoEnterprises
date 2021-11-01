@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
   <types>
+    <members>HierarchyMethods</members>
+    <members>OnScratchOrgCreation</members>
+    <members>KBCardProcessorHierarchyPath</members>
+    <members>KBCardProcessorHierarchyPathTest</members>
+    <name>ApexClass</name>
+  </types>
+  <types>
     <members>Change_Log__c</members>
     <members>KBCard__c</members>
     <name>CustomObject</name>
@@ -32,6 +39,7 @@
     <members>KBCard__c.Programs</members>
     <members>KBCard__c.Projects</members>
     <members>KBCard__c.Stories</members>
+    <members>KBCard__c.Hierarchy_Sort</members>
     <name>ListView</name>
   </types>
   <types>
