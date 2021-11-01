@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HierarchyFeature__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Hierarchy Feature</label>
+    <referenceTo>KBCard__c</referenceTo>
+    <relationshipLabel>KBCards (Hierarchy Feature)</relationshipLabel>
+    <relationshipName>KBCardsFeature</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

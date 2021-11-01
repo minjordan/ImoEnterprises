@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
-    <fullName>Program_Highest_Level</fullName>
-    <active>true</active>
-    <description>Program record types can&apos;t have a parent.  They are at the highest level.</description>
-    <errorConditionFormula>RecordType.Name = &quot;Program&quot;  &amp;&amp;  NOT ISNULL( ParentKBCard__c )</errorConditionFormula>
-    <errorDisplayField>ParentKBCard__c</errorDisplayField>
-    <errorMessage>Program record types can&apos;t have a parent.  They are at the highest level.</errorMessage>
-</ValidationRule>

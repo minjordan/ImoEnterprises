@@ -9,6 +9,12 @@
     <columns>NAME</columns>
     <columns>Status__c</columns>
     <columns>RECORDTYPE</columns>
+    <columns>HierarchySort__c</columns>
+    <columns>HierarchyProgram__c</columns>
+    <columns>HierarchyProject__c</columns>
+    <columns>HierarchyCapability__c</columns>
+    <columns>HierarchyEpic__c</columns>
+    <columns>HierarchyFeature__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
