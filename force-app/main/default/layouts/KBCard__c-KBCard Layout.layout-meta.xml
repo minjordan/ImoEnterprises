@@ -12,12 +12,12 @@
                 <field>KBCAN__c</field>
             </layoutItems>
             <layoutItems>
-                <behavior>Readonly</behavior>
-                <field>KBCExtID__c</field>
-            </layoutItems>
-            <layoutItems>
                 <behavior>Required</behavior>
                 <field>Name</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Readonly</behavior>
+                <field>KBCExtID__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Edit</behavior>
@@ -120,6 +120,36 @@
     </layoutSections>
     <layoutSections>
         <customLabel>true</customLabel>
+        <detailHeading>true</detailHeading>
+        <editHeading>true</editHeading>
+        <label>Hierarchy Fields</label>
+        <layoutColumns>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>HierarchyProgram__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>HierarchyProject__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>HierarchyCapability__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>HierarchyEpic__c</field>
+            </layoutItems>
+            <layoutItems>
+                <behavior>Edit</behavior>
+                <field>HierarchyFeature__c</field>
+            </layoutItems>
+        </layoutColumns>
+        <layoutColumns/>
+        <style>TwoColumnsLeftToRight</style>
+    </layoutSections>
+    <layoutSections>
+        <customLabel>true</customLabel>
         <detailHeading>false</detailHeading>
         <editHeading>true</editHeading>
         <label>Custom Links</label>
@@ -133,6 +163,7 @@
         <fields>KBCExtID__c</fields>
         <fields>Entity__c</fields>
         <fields>Type__c</fields>
+        <fields>RECORDTYPE</fields>
         <relatedList>KBCard__c.ParentKBCard__c</relatedList>
     </relatedLists>
     <relatedLists>
@@ -144,7 +175,7 @@
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
     <summaryLayout>
-        <masterLabel>00h2D000002qAjU</masterLabel>
+        <masterLabel>00h17000007YsxT</masterLabel>
         <sizeX>4</sizeX>
         <sizeY>2</sizeY>
         <summaryLayoutItems>

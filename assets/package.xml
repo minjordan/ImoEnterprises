@@ -5,7 +5,12 @@
     <members>OnScratchOrgCreation</members>
     <members>KBCardProcessorHierarchyPath</members>
     <members>KBCardProcessorHierarchyPathTest</members>
+    <members>TestKBCardTrigger</members>
     <name>ApexClass</name>
+  </types>
+  <types>
+    <members>KBCardTrigger</members>
+    <name>ApexTrigger</name>
   </types>
   <types>
     <members>Change_Log__c</members>
@@ -79,7 +84,11 @@
     <name>RecordType</name>
   </types>
   <types>
-    <members>KBCard__c.Program_Highest_Level</members>
+    <members>unfiled$public\AllKBCards</members>
+    <name>Report</name>
+  </types>
+  <types>
+    <members>KBCard__c.ParentRequiredOnAllExceptProgram</members>
     <name>ValidationRule</name>
   </types>
   <types>
