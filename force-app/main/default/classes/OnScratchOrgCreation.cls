@@ -202,7 +202,10 @@ public class OnScratchOrgCreation {
             kbc.ParentKBCard__c=parentFeatureID2;
             insert kbc;
             parentStoryID2= kbc.id;
-            System.debug('T_Kanban_Object_Record_Type id=' + parentStoryID2);             
+            System.debug('T_Kanban_Object_Record_Type id=' + parentStoryID2);      
+            
+            HierarchyMethods.ResetAllKBCardHierarchyPath();
+            
         } catch(DmlException e){
             System.debug('An unexpected error has occurred: ' + e.getMessage());
         }
