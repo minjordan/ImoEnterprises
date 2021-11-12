@@ -32,7 +32,12 @@
   </types>
   <types>
     <members>Change_Log__c-Change Log Layout</members>
-    <members>KBCard__c-KBCard Layout</members>
+    <members>KBCard__c-KBCard Program Layout</members>
+    <members>KBCard__c-KBCard Epic Layout</members>
+    <members>KBCard__c-KBCard Capability Layout</members>
+    <members>KBCard__c-KBCard Story Layout</members>
+    <members>KBCard__c-KBCard Project Layout</members>
+    <members>KBCard__c-KBCard Feature Layout </members>
     <name>Layout</name>
   </types>
   <types>
@@ -73,6 +78,14 @@
     <members>PT1_profilePasswordPolicy1635098994861</members>
     <members>ImoESuperUser_profileSessionSetting1635098549290</members>
     <name>ProfileSessionSetting</name>
+  </types>
+  <types>
+    <members>KBCard__c.NewCapability</members>
+    <members>KBCard__c.NewFeature</members>
+    <members>KBCard__c.NewStory</members>
+    <members>KBCard__c.NewProject</members>
+    <members>KBCard__c.NewEpic</members>
+    <name>QuickAction</name>
   </types>
   <types>
     <members>KBCard__c.Capability</members>
