@@ -135,30 +135,30 @@
         <layout>Change_Log__c-Change Log Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>KBCard__c-KBCard Layout</layout>
-    </layoutAssignments>
-    <layoutAssignments>
-        <layout>KBCard__c-KBCard Layout</layout>
+        <layout>KBCard__c-KBCard Capability Layout</layout>
         <recordType>KBCard__c.Capability</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>KBCard__c-KBCard Layout</layout>
+        <layout>KBCard__c-KBCard Epic Layout</layout>
         <recordType>KBCard__c.Epic</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>KBCard__c-KBCard Layout</layout>
+        <layout>KBCard__c-KBCard Feature Layout</layout>
         <recordType>KBCard__c.Feature</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>KBCard__c-KBCard Layout</layout>
+        <layout>KBCard__c-KBCard Program Layout</layout>
         <recordType>KBCard__c.Program</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>KBCard__c-KBCard Layout</layout>
+        <layout>KBCard__c-KBCard Project Layout</layout>
         <recordType>KBCard__c.Project</recordType>
     </layoutAssignments>
     <layoutAssignments>
-        <layout>KBCard__c-KBCard Layout</layout>
+        <layout>KBCard__c-KBCard Story Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>KBCard__c-KBCard Story Layout</layout>
         <recordType>KBCard__c.Story</recordType>
     </layoutAssignments>
     <objectPermissions>
