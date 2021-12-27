@@ -6,6 +6,7 @@
     <members>KBCardProcessorHierarchyPath</members>
     <members>KBCardProcessorHierarchyPathTest</members>
     <members>TestKBCardTrigger</members>
+    <members>EntityHierarchyMethods</members>
     <name>ApexClass</name>
   </types>
   <types>
@@ -15,11 +16,13 @@
   <types>
     <members>Change_Log__c</members>
     <members>KBCard__c</members>
+    <members>Entity__c</members>
     <name>CustomObject</name>
   </types>
   <types>
     <members>KBCard__c</members>
     <members>Change_Log__c</members>
+    <members>Entity__c</members>
     <name>CustomTab</name>
   </types>
   <types>
@@ -28,6 +31,7 @@
   </types>
   <types>
     <members>KBCard_Lightning</members>
+    <members>Entity</members>
     <name>FlexiPage</name>
   </types>
   <types>
@@ -38,6 +42,7 @@
     <members>KBCard__c-KBCard Story Layout</members>
     <members>KBCard__c-KBCard Project Layout</members>
     <members>KBCard__c-KBCard Feature Layout </members>
+    <members>Entity__c.Entity Layout</members>
     <name>Layout</name>
   </types>
   <types>
@@ -50,6 +55,8 @@
     <members>KBCard__c.Projects</members>
     <members>KBCard__c.Stories</members>
     <members>KBCard__c.Hierarchy_Sort</members>
+    <members>Entity__c.All</members>
+    <members>Entity__c.EntitiesHierarchyView</members>
     <name>ListView</name>
   </types>
   <types>
@@ -106,6 +113,7 @@
   </types>
   <types>
     <members>KBCard__c.KBCAN__c</members>
+    <members>Entity__c.Code__c</members>
     <name>CustomIndex</name>
   </types>
   <version>53.0</version>
