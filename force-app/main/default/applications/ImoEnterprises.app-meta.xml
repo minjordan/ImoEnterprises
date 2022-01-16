@@ -18,6 +18,14 @@
         <type>Flexipage</type>
         <pageOrSobjectType>Entity__c</pageOrSobjectType>
     </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <content>ImoE_Dev_Home</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>standard-home</pageOrSobjectType>
+    </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
@@ -28,9 +36,13 @@
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
     <label>Imo Enterprises</label>
     <navType>Standard</navType>
+    <tabs>standard-home</tabs>
     <tabs>Change_Log__c</tabs>
     <tabs>KBCard__c</tabs>
     <tabs>standard-report</tabs>
+    <tabs>standard-Dashboard</tabs>
+    <tabs>Chart_of_Account_Type__c</tabs>
+    <tabs>Chart_of_Account__c</tabs>
     <tabs>Entity__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Imo_Enterprises_UtilityBar</utilityBar>

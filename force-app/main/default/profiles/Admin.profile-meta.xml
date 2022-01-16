@@ -47,6 +47,26 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Chart_of_Account_Type__c.Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Chart_of_Account_Type__c.Left_or_Right__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Chart_of_Account__c.Account_Info__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>Chart_of_Account__c.Chart_of_Account_Type_Code__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Entity__c.Account__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -164,6 +184,12 @@
         <layout>Change_Log__c-Change Log Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Chart_of_Account_Type__c-Chart of Account Type Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Chart_of_Account__c-Chart of Account Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Entity__c-Entity Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -200,6 +226,24 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Change_Log__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Chart_of_Account_Type__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Chart_of_Account__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
@@ -252,6 +296,14 @@
     </recordTypeVisibilities>
     <tabVisibilities>
         <tab>Change_Log__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Chart_of_Account_Type__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>Chart_of_Account__c</tab>
         <visibility>DefaultOn</visibility>
     </tabVisibilities>
     <tabVisibilities>

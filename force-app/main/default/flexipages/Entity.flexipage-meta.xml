@@ -42,34 +42,6 @@
         <itemInstances>
             <componentInstance>
                 <componentInstanceProperties>
-                    <name>crossObjectId</name>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hierarchyColumns</name>
-                    <value>Name</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>hierarchyFieldAPIName</name>
-                    <value>ParentEntity__c</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>linkbehaviour</name>
-                    <value>New Tab</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>showChildCount</name>
-                    <value>false</value>
-                </componentInstanceProperties>
-                <componentInstanceProperties>
-                    <name>sortingOrder</name>
-                    <value>ASC</value>
-                </componentInstanceProperties>
-                <componentName>aiflyHierarchy:AiflyHierarchyView</componentName>
-            </componentInstance>
-        </itemInstances>
-        <itemInstances>
-            <componentInstance>
-                <componentInstanceProperties>
                     <name>relatedListComponentOverride</name>
                     <value>NONE</value>
                 </componentInstanceProperties>
