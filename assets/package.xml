@@ -17,12 +17,16 @@
     <members>Change_Log__c</members>
     <members>KBCard__c</members>
     <members>Entity__c</members>
+    <members>Chart_of_Account__c</members>
+    <members>Chart_of_Account_Type__c</members>
     <name>CustomObject</name>
   </types>
   <types>
     <members>KBCard__c</members>
     <members>Change_Log__c</members>
     <members>Entity__c</members>
+    <members>Chart_of_Account__c</members>
+    <members>Chart_of_Account_Type__c</members>
     <name>CustomTab</name>
   </types>
   <types>
@@ -32,6 +36,7 @@
   <types>
     <members>KBCard_Lightning</members>
     <members>Entity</members>
+    <members>ImoE_Dev_Home</members>
     <name>FlexiPage</name>
   </types>
   <types>
@@ -43,6 +48,8 @@
     <members>KBCard__c-KBCard Project Layout</members>
     <members>KBCard__c-KBCard Feature Layout </members>
     <members>Entity__c.Entity Layout</members>
+    <members>Chart_of_Account__c-Chart of Account Layout</members>
+    <members>Chart_of_Account_Type__c-Chart of Account Type Layout</members>
     <name>Layout</name>
   </types>
   <types>
@@ -57,6 +64,8 @@
     <members>KBCard__c.Hierarchy_Sort</members>
     <members>Entity__c.All</members>
     <members>Entity__c.EntitiesHierarchyView</members>
+    <members>Chart_of_Account__c.All</members>
+    <members>Chart_of_Account_Type__c.All</members>
     <name>ListView</name>
   </types>
   <types>

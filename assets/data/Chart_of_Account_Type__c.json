@@ -1,0 +1,100 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef1"
+            },
+            "Code__c": 100,
+            "Name": "Assets",
+            "Code_Minimum__c": 101,
+            "Code_Maximum__c": 199,
+            "Financial_Report__c": "Balance Sheet",
+            "Left_or_Right__c": "Left"
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef2"
+            },
+            "Code__c": 200,
+            "Name": "Liabilities",
+            "Code_Minimum__c": 201,
+            "Code_Maximum__c": 299,
+            "Financial_Report__c": "Balance Sheet",
+            "Left_or_Right__c": "Left"
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef3"
+            },
+            "Code__c": 300,
+            "Name": "Equity",
+            "Code_Minimum__c": 301,
+            "Code_Maximum__c": 399,
+            "Financial_Report__c": "Balance Sheet",
+            "Left_or_Right__c": "Right"
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef4"
+            },
+            "Code__c": 400,
+            "Name": "Revenue",
+            "Code_Minimum__c": 401,
+            "Code_Maximum__c": 499,
+            "Financial_Report__c": "Profit & Loss",
+            "Left_or_Right__c": "Left"
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef5"
+            },
+            "Code__c": 500,
+            "Name": "Cost of Goods Sold",
+            "Code_Minimum__c": 501,
+            "Code_Maximum__c": 599,
+            "Financial_Report__c": "Profit & Loss",
+            "Left_or_Right__c": "Right"
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef6"
+            },
+            "Code__c": 600,
+            "Name": "Operating Expenses",
+            "Code_Minimum__c": 601,
+            "Code_Maximum__c": 699,
+            "Financial_Report__c": "Profit & Loss",
+            "Left_or_Right__c": "Right"
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef7"
+            },
+            "Code__c": 700,
+            "Name": "Taxes Paid",
+            "Code_Minimum__c": 701,
+            "Code_Maximum__c": 799,
+            "Financial_Report__c": "Profit & Loss",
+            "Left_or_Right__c": "Right"
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef8"
+            },
+            "Code__c": 800,
+            "Name": "Other Expenses",
+            "Code_Minimum__c": 801,
+            "Code_Maximum__c": 899,
+            "Financial_Report__c": "Profit & Loss",
+            "Left_or_Right__c": "Right"
+        }
+    ]
+}

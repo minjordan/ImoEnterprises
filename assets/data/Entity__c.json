@@ -1,0 +1,114 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Entity__c",
+                "referenceId": "Entity__cRef1"
+            },
+            "Name": "Jordans R Us",
+            "Code__c": "JRU",
+            "Level__c": 1,
+            "HierarchySort__c": 1,
+            "LineDisplay__c": "Jordans R Us"
+        },
+        {
+            "attributes": {
+                "type": "Entity__c",
+                "referenceId": "Entity__cRef2"
+            },
+            "Name": "Copper Range",
+            "Code__c": "CR",
+            "Level__c": 2,
+            "HierarchySort__c": 2,
+            "LineDisplay__c": "-----Copper Range"
+        },
+        {
+            "attributes": {
+                "type": "Entity__c",
+                "referenceId": "Entity__cRef3"
+            },
+            "Name": "Historical Society",
+            "Code__c": "HS",
+            "Level__c": 3,
+            "HierarchySort__c": 3,
+            "LineDisplay__c": "----------Historical Society"
+        },
+        {
+            "attributes": {
+                "type": "Entity__c",
+                "referenceId": "Entity__cRef4"
+            },
+            "Name": "English Extrordinaire",
+            "Code__c": "EE",
+            "Level__c": 2,
+            "HierarchySort__c": 3,
+            "LineDisplay__c": "-----English Extrordinaire"
+        },
+        {
+            "attributes": {
+                "type": "Entity__c",
+                "referenceId": "Entity__cRef5"
+            },
+            "Name": "Train Maker",
+            "Code__c": "TM",
+            "Level__c": 3,
+            "HierarchySort__c": 4,
+            "LineDisplay__c": "----------Train Maker"
+        },
+        {
+            "attributes": {
+                "type": "Entity__c",
+                "referenceId": "Entity__cRef6"
+            },
+            "Name": "Gaming Guru",
+            "Code__c": "GG",
+            "Level__c": 2,
+            "HierarchySort__c": 4,
+            "LineDisplay__c": "-----Gaming Guru"
+        },
+        {
+            "attributes": {
+                "type": "Entity__c",
+                "referenceId": "Entity__cRef7"
+            },
+            "Name": "Imo Enterprises",
+            "Code__c": "IE",
+            "Level__c": 2,
+            "HierarchySort__c": 5,
+            "LineDisplay__c": "-----Imo Enterprises"
+        },
+        {
+            "attributes": {
+                "type": "Entity__c",
+                "referenceId": "Entity__cRef8"
+            },
+            "Name": "Imo Apartments",
+            "Code__c": "LL",
+            "Level__c": 3,
+            "HierarchySort__c": 6,
+            "LineDisplay__c": "----------Imo Apartments"
+        },
+        {
+            "attributes": {
+                "type": "Entity__c",
+                "referenceId": "Entity__cRef9"
+            },
+            "Name": "Imo Coffee and Bookstore",
+            "Code__c": "CB",
+            "Level__c": 3,
+            "HierarchySort__c": 7,
+            "LineDisplay__c": "----------Imo Coffee and Bookstore"
+        },
+        {
+            "attributes": {
+                "type": "Entity__c",
+                "referenceId": "Entity__cRef10"
+            },
+            "Name": "Imo Ice Cream and Goods",
+            "Code__c": "IG",
+            "Level__c": 3,
+            "HierarchySort__c": 8,
+            "LineDisplay__c": "----------Imo Ice Cream and Goods"
+        }
+    ]
+}
