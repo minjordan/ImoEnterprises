@@ -167,8 +167,9 @@
     </nameField>
     <pluralLabel>KBCards</pluralLabel>
     <searchLayouts>
+        <listViewButtons>Reset_Hierarchy</listViewButtons>
+        <searchResultsAdditionalFields>Description__c</searchResultsAdditionalFields>
         <searchResultsAdditionalFields>ParentKBCard__c</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>KBCExtID__c</searchResultsAdditionalFields>
     </searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
     <visibility>Public</visibility>

@@ -5,22 +5,22 @@
                 "type": "Entity__c",
                 "referenceId": "Entity__cRef1"
             },
-            "Name": "Jordans R Us",
-            "Code__c": "JRU",
+            "Name": "Copper Range",
+            "Code__c": "CR",
             "Level__c": 1,
             "HierarchySort__c": 1,
-            "LineDisplay__c": "Jordans R Us"
+            "LineDisplay__c": "Copper Range"
         },
         {
             "attributes": {
                 "type": "Entity__c",
                 "referenceId": "Entity__cRef2"
             },
-            "Name": "Copper Range",
-            "Code__c": "CR",
-            "Level__c": 2,
+            "Name": "Jordans R Us",
+            "Code__c": "JRU",
+            "Level__c": 1,
             "HierarchySort__c": 2,
-            "LineDisplay__c": "-----Copper Range"
+            "LineDisplay__c": "Jordans R Us"
         },
         {
             "attributes": {
@@ -29,9 +29,17 @@
             },
             "Name": "Historical Society",
             "Code__c": "HS",
-            "Level__c": 3,
-            "HierarchySort__c": 3,
-            "LineDisplay__c": "----------Historical Society"
+            "ParentEntity__r": {
+                "attributes": {
+                    "type": "Entity__c",
+                    "url": "/services/data/v53.0/sobjects/Entity__c/a025e00000Bk6ZKAAZ"
+                },
+                "Code__c": "CR",
+                "Name": "Copper Range"
+            },
+            "Level__c": 2,
+            "HierarchySort__c": 2,
+            "LineDisplay__c": "-----Historical Society"
         },
         {
             "attributes": {
@@ -40,6 +48,14 @@
             },
             "Name": "English Extrordinaire",
             "Code__c": "EE",
+            "ParentEntity__r": {
+                "attributes": {
+                    "type": "Entity__c",
+                    "url": "/services/data/v53.0/sobjects/Entity__c/a025e00000Bk6ZJAAZ"
+                },
+                "Code__c": "JRU",
+                "Name": "Jordans R Us"
+            },
             "Level__c": 2,
             "HierarchySort__c": 3,
             "LineDisplay__c": "-----English Extrordinaire"
@@ -51,9 +67,17 @@
             },
             "Name": "Train Maker",
             "Code__c": "TM",
-            "Level__c": 3,
-            "HierarchySort__c": 4,
-            "LineDisplay__c": "----------Train Maker"
+            "ParentEntity__r": {
+                "attributes": {
+                    "type": "Entity__c",
+                    "url": "/services/data/v53.0/sobjects/Entity__c/a025e00000Bk6ZKAAZ"
+                },
+                "Code__c": "CR",
+                "Name": "Copper Range"
+            },
+            "Level__c": 2,
+            "HierarchySort__c": 3,
+            "LineDisplay__c": "-----Train Maker"
         },
         {
             "attributes": {
@@ -62,6 +86,14 @@
             },
             "Name": "Gaming Guru",
             "Code__c": "GG",
+            "ParentEntity__r": {
+                "attributes": {
+                    "type": "Entity__c",
+                    "url": "/services/data/v53.0/sobjects/Entity__c/a025e00000Bk6ZJAAZ"
+                },
+                "Code__c": "JRU",
+                "Name": "Jordans R Us"
+            },
             "Level__c": 2,
             "HierarchySort__c": 4,
             "LineDisplay__c": "-----Gaming Guru"
@@ -73,6 +105,14 @@
             },
             "Name": "Imo Enterprises",
             "Code__c": "IE",
+            "ParentEntity__r": {
+                "attributes": {
+                    "type": "Entity__c",
+                    "url": "/services/data/v53.0/sobjects/Entity__c/a025e00000Bk6ZJAAZ"
+                },
+                "Code__c": "JRU",
+                "Name": "Jordans R Us"
+            },
             "Level__c": 2,
             "HierarchySort__c": 5,
             "LineDisplay__c": "-----Imo Enterprises"
@@ -84,6 +124,14 @@
             },
             "Name": "Imo Apartments",
             "Code__c": "LL",
+            "ParentEntity__r": {
+                "attributes": {
+                    "type": "Entity__c",
+                    "url": "/services/data/v53.0/sobjects/Entity__c/a025e00000Bk6ZPAAZ"
+                },
+                "Code__c": "IE",
+                "Name": "Imo Enterprises"
+            },
             "Level__c": 3,
             "HierarchySort__c": 6,
             "LineDisplay__c": "----------Imo Apartments"
@@ -95,6 +143,14 @@
             },
             "Name": "Imo Coffee and Bookstore",
             "Code__c": "CB",
+            "ParentEntity__r": {
+                "attributes": {
+                    "type": "Entity__c",
+                    "url": "/services/data/v53.0/sobjects/Entity__c/a025e00000Bk6ZPAAZ"
+                },
+                "Code__c": "IE",
+                "Name": "Imo Enterprises"
+            },
             "Level__c": 3,
             "HierarchySort__c": 7,
             "LineDisplay__c": "----------Imo Coffee and Bookstore"
@@ -106,6 +162,14 @@
             },
             "Name": "Imo Ice Cream and Goods",
             "Code__c": "IG",
+            "ParentEntity__r": {
+                "attributes": {
+                    "type": "Entity__c",
+                    "url": "/services/data/v53.0/sobjects/Entity__c/a025e00000Bk6ZPAAZ"
+                },
+                "Code__c": "IE",
+                "Name": "Imo Enterprises"
+            },
             "Level__c": 3,
             "HierarchySort__c": 8,
             "LineDisplay__c": "----------Imo Ice Cream and Goods"
