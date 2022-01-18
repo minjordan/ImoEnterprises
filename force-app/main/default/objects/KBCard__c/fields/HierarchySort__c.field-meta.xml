@@ -2,12 +2,12 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>HierarchySort__c</fullName>
     <externalId>false</externalId>
-    <formula>If( RecordType.Name =='Program',  KBCExtID__c, HierarchyProgram__r.KBCExtID__c) +
-        If( RecordType.Name =='Project',  KBCExtID__c, HierarchyProject__r.KBCExtID__c) +
-        If( RecordType.Name =='Capability',  KBCExtID__c, HierarchyCapability__r.KBCExtID__c) +
-        If( RecordType.Name =='Epic',  KBCExtID__c, HierarchyEpic__r.KBCExtID__c ) +
-        If( RecordType.Name =='Feature',  KBCExtID__c, HierarchyFeature__r.KBCExtID__c) +
-        If( RecordType.Name =='Story',  KBCExtID__c,'')</formula>
+    <formula>If( RecordType.Name ==&apos;Program&apos;,  KBCExtID__c, HierarchyProgram__r.KBCExtID__c) +
+        If( RecordType.Name ==&apos;Project&apos;,  KBCExtID__c, HierarchyProject__r.KBCExtID__c) +
+        If( RecordType.Name ==&apos;Capability&apos;,  KBCExtID__c, HierarchyCapability__r.KBCExtID__c) +
+        If( RecordType.Name ==&apos;Epic&apos;,  KBCExtID__c, HierarchyEpic__r.KBCExtID__c ) +
+        If( RecordType.Name ==&apos;Feature&apos;,  KBCExtID__c, HierarchyFeature__r.KBCExtID__c) +
+        If( RecordType.Name ==&apos;Story&apos;,  KBCExtID__c,&apos;&apos;)</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Hierarchy Sort</label>
     <required>false</required>

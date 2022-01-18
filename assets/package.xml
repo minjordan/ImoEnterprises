@@ -7,12 +7,16 @@
     <members>KBCardProcessorHierarchyPathTest</members>
     <members>TestKBCardTrigger</members>
     <members>EntityHierarchyMethods</members>
+    <members>KBCardHierarchyMethods</members>
     <name>ApexClass</name>
   </types>
   <types>
     <members>KBCardTrigger</members>
     <name>ApexTrigger</name>
   </types>
+  <types>
+    <members>KBCard__c.Reset_Hierarchy</members>
+    <name>WebLink</name>
   <types>
     <members>Change_Log__c</members>
     <members>KBCard__c</members>
@@ -34,9 +38,11 @@
     <name>CompactLayout</name>
   </types>
   <types>
-    <members>KBCard_Lightning</members>
+
     <members>Entity</members>
     <members>ImoE_Dev_Home</members>
+    <members>KBCard_Lightning</members>
+    <members>Change_Log_Lightning_Page</members>
     <name>FlexiPage</name>
   </types>
   <types>
@@ -114,7 +120,12 @@
   </types>
   <types>
     <members>unfiled$public\AllKBCards</members>
+    <members>unfiled$public\KBCardTree</members>
     <name>Report</name>
+  </types>
+  <types>
+    <members>Public</members>
+    <members>Public/KBCardTree</members>
   </types>
   <types>
     <members>KBCard__c.ParentRequiredOnAllExceptProgram</members>
