@@ -16,9 +16,9 @@
                 <label>Balance Sheet</label>
             </value>
             <value>
-                <fullName>Profit &amp; Loss</fullName>
+                <fullName>Income Statement</fullName>
                 <default>false</default>
-                <label>Profit &amp; Loss</label>
+                <label>Income Statement</label>
             </value>
         </valueSetDefinition>
     </valueSet>

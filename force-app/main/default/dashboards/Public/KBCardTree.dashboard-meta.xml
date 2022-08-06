@@ -42,7 +42,7 @@
                 </flexComponentProperties>
                 <groupingSortProperties/>
                 <header>KBCard Tree</header>
-                <report>unfiled$public/New_KBCards_Report_1fm</report>
+                <report>unfiled$public/KBCardTree</report>
             </dashboardComponent>
             <rowIndex>0</rowIndex>
             <rowSpan>12</rowSpan>

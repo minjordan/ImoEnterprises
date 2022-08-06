@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DebitOppositeCredit</fullName>
+    <active>true</active>
+    <description>Debit and Credit must not match.</description>
+    <errorConditionFormula>TEXT(Debit_Behavior__c)  =  TEXT(Credit_Behavior__c)</errorConditionFormula>
+    <errorDisplayField>Debit_Behavior__c</errorDisplayField>
+    <errorMessage>Debit and Credit must not match.</errorMessage>
+</ValidationRule>

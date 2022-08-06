@@ -5,6 +5,8 @@
     <columns>NAME</columns>
     <columns>Chart_of_Account_Type__c</columns>
     <columns>Balance__c</columns>
+    <columns>Parent_Chart_of_Account__c</columns>
+    <columns>Allow_Delete__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>

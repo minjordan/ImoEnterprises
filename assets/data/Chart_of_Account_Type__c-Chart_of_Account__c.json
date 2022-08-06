@@ -1,0 +1,197 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef1"
+            },
+            "Name": "Expense",
+            "Code_Maximum__c": 599,
+            "Code_Minimum__c": 501,
+            "Code__c": 500,
+            "Financial_Report__c": "Income Statement",
+            "Debit_Behavior__c": "Increase (+)",
+            "Credit_Behavior__c": "Decrease (-)",
+            "Chart_of_Accounts__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Chart_of_Account__c",
+                            "referenceId": "Chart_of_Account__cRef1"
+                        },
+                        "Name": "Electricity Expense",
+                        "Account_Info__c": null,
+                        "Balance__c": 0,
+                        "Code__c": 551,
+                        "Chart_of_Account_Type_Code__c": 500,
+                        "Allow_Delete__c": true
+                    },
+                    {
+                        "attributes": {
+                            "type": "Chart_of_Account__c",
+                            "referenceId": "Chart_of_Account__cRef2"
+                        },
+                        "Name": "Utilities",
+                        "Account_Info__c": null,
+                        "Balance__c": 0,
+                        "Code__c": 550,
+                        "Chart_of_Account_Type_Code__c": 500,
+                        "Allow_Delete__c": true
+                    },
+                    {
+                        "attributes": {
+                            "type": "Chart_of_Account__c",
+                            "referenceId": "Chart_of_Account__cRef3"
+                        },
+                        "Name": "Natural Gas Expense",
+                        "Account_Info__c": null,
+                        "Balance__c": 0,
+                        "Code__c": 552,
+                        "Chart_of_Account_Type_Code__c": 500,
+                        "Allow_Delete__c": true
+                    },
+                    {
+                        "attributes": {
+                            "type": "Chart_of_Account__c",
+                            "referenceId": "Chart_of_Account__cRef4"
+                        },
+                        "Name": "Expenses",
+                        "Account_Info__c": null,
+                        "Balance__c": 0,
+                        "Code__c": 500,
+                        "Chart_of_Account_Type_Code__c": 500,
+                        "Allow_Delete__c": false
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef2"
+            },
+            "Name": "Asset",
+            "Code_Maximum__c": 199,
+            "Code_Minimum__c": 101,
+            "Code__c": 100,
+            "Financial_Report__c": "Balance Sheet",
+            "Debit_Behavior__c": "Increase (+)",
+            "Credit_Behavior__c": "Decrease (-)",
+            "Chart_of_Accounts__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Chart_of_Account__c",
+                            "referenceId": "Chart_of_Account__cRef5"
+                        },
+                        "Name": "Assets",
+                        "Account_Info__c": null,
+                        "Balance__c": 0,
+                        "Code__c": 100,
+                        "Chart_of_Account_Type_Code__c": 100,
+                        "Allow_Delete__c": false
+                    },
+                    {
+                        "attributes": {
+                            "type": "Chart_of_Account__c",
+                            "referenceId": "Chart_of_Account__cRef6"
+                        },
+                        "Name": "Cash",
+                        "Account_Info__c": null,
+                        "Balance__c": 0,
+                        "Code__c": 101,
+                        "Chart_of_Account_Type_Code__c": 100,
+                        "Allow_Delete__c": true
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef3"
+            },
+            "Name": "Revenue",
+            "Code_Maximum__c": 499,
+            "Code_Minimum__c": 401,
+            "Code__c": 400,
+            "Financial_Report__c": "Income Statement",
+            "Debit_Behavior__c": "Decrease (-)",
+            "Credit_Behavior__c": "Increase (+)",
+            "Chart_of_Accounts__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Chart_of_Account__c",
+                            "referenceId": "Chart_of_Account__cRef7"
+                        },
+                        "Name": "Revenues",
+                        "Account_Info__c": null,
+                        "Balance__c": 0,
+                        "Code__c": 400,
+                        "Chart_of_Account_Type_Code__c": 400,
+                        "Allow_Delete__c": false
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef4"
+            },
+            "Name": "Liability",
+            "Code_Maximum__c": 299,
+            "Code_Minimum__c": 201,
+            "Code__c": 200,
+            "Financial_Report__c": "Balance Sheet",
+            "Debit_Behavior__c": "Decrease (-)",
+            "Credit_Behavior__c": "Increase (+)",
+            "Chart_of_Accounts__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Chart_of_Account__c",
+                            "referenceId": "Chart_of_Account__cRef8"
+                        },
+                        "Name": "Liabilities",
+                        "Account_Info__c": null,
+                        "Balance__c": 0,
+                        "Code__c": 200,
+                        "Chart_of_Account_Type_Code__c": 200,
+                        "Allow_Delete__c": false
+                    }
+                ]
+            }
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef5"
+            },
+            "Name": "Equity",
+            "Code_Maximum__c": 399,
+            "Code_Minimum__c": 301,
+            "Code__c": 300,
+            "Financial_Report__c": "Balance Sheet",
+            "Debit_Behavior__c": "Decrease (-)",
+            "Credit_Behavior__c": "Increase (+)",
+            "Chart_of_Accounts__r": {
+                "records": [
+                    {
+                        "attributes": {
+                            "type": "Chart_of_Account__c",
+                            "referenceId": "Chart_of_Account__cRef9"
+                        },
+                        "Name": "Owner's Equity",
+                        "Account_Info__c": null,
+                        "Balance__c": 0,
+                        "Code__c": 300,
+                        "Chart_of_Account_Type_Code__c": 300,
+                        "Allow_Delete__c": false
+                    }
+                ]
+            }
+        }
+    ]
+}
