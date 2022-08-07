@@ -1,0 +1,29 @@
+{
+    "objects": [
+        {
+            "query": "SELECT Id, Account__c, Code__c, Name, HierarchySort__c, Level__c, LineDisplay__c, ParentEntity__c FROM Entity__c",
+            "operation": "Upsert",
+            "externalId": "Code__c"
+        },
+        {
+            "query": "SELECT Branch__c, Change_Date__c, Name, CLExtID__c, Description__c FROM Change_Log__c",
+            "operation": "Upsert",
+            "externalId": "CLExtID__c"
+        },
+        {
+            "query": "SELECT Id, COA_Code__c, Name,Code_Minimum__c,  Code_Maximum__c, Financial_Report__c, Credit_Behavior__c, Debit_Behavior__c FROM Chart_of_Account_Type__c",
+            "operation": "Upsert",
+            "externalId": "COA_Code__c"
+        },
+        {
+            "query": "SELECT Id, Name, Account_Info__c, Balance__c, Chart_of_Account_Type__c, Code__c, Chart_of_Account_Type_Code__c, Allow_Delete__c, Parent_Chart_of_Account__c FROM Chart_of_Account__c",
+            "operation": "Upsert",
+            "externalId": "Code__c"
+        },
+        {
+            "query": "SELECT Change_Log_Entry__c, Description__c, Entity__c, HierarchyCapability__c, HierarchyEpic__c, HierarchyFeature__c, HierarchyPath__c, HierarchyProgram__c, HierarchyProject__c, HierarchySort__c, Hierarchy_Sort_Number__c, KBCAN__c, KBCard_ID__c, Name, KBCExtID__c, Level__c, Level_Number__c, LineDisplay__c, ParentKBCard__c, ParentKBCard__r.KBCAN__c, Parent_Level_Allowed__c, RecordTypeId, Status__c, Type__c  FROM KBCard__c",
+            "operation": "Upsert",
+            "externalId": "KBCExtID__c"
+        }
+    ]
+}

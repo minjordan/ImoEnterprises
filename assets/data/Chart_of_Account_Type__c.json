@@ -1,0 +1,47 @@
+[
+  {
+    "Name": "Asset",
+    "Code_Maximum__c": 199,
+    "Code_Minimum__c": 101,
+    "COA_Code__c": 100,
+    "Financial_Report__c": "Balance Sheet",
+    "Credit_Behavior__c": "Decrease (-)",
+    "Debit_Behavior__c": "Increase (+)"
+  },
+  {
+    "Name": "Liability",
+    "Code_Maximum__c": 299,
+    "Code_Minimum__c": 201,
+    "COA_Code__c": 200,
+    "Financial_Report__c": "Balance Sheet",
+    "Credit_Behavior__c": "Increase (+)",
+    "Debit_Behavior__c": "Decrease (-)"
+  },
+  {
+    "Name": "Equity",
+    "Code_Maximum__c": 399,
+    "Code_Minimum__c": 301,
+    "COA_Code__c": 300,
+    "Financial_Report__c": "Balance Sheet",
+    "Credit_Behavior__c": "Increase (+)",
+    "Debit_Behavior__c": "Decrease (-)"
+  },
+  {
+    "Name": "Revenue",
+    "Code_Maximum__c": 499,
+    "Code_Minimum__c": 401,
+    "COA_Code__c": 400,
+    "Financial_Report__c": "Income Statement",
+    "Credit_Behavior__c": "Increase (+)",
+    "Debit_Behavior__c": "Decrease (-)"
+  },
+  {
+    "Name": "Expense",
+    "Code_Maximum__c": 599,
+    "Code_Minimum__c": 501,
+    "COA_Code__c": 500,
+    "Financial_Report__c": "Income Statement",
+    "Credit_Behavior__c": "Decrease (-)",
+    "Debit_Behavior__c": "Increase (+)"
+  }
+]

@@ -1,0 +1,69 @@
+{
+    "records": [
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef1"
+            },
+            "COA_Code__c": 300,
+            "Name": "Equity",
+            "Code_Minimum__c": 301,
+            "Code_Maximum__c": 399,
+            "Financial_Report__c": "Balance Sheet",
+            "Credit_Behavior__c": "Increase (+)",
+            "Debit_Behavior__c": "Decrease (-)"
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef2"
+            },
+            "COA_Code__c": 400,
+            "Name": "Revenue",
+            "Code_Minimum__c": 401,
+            "Code_Maximum__c": 499,
+            "Financial_Report__c": "Income Statement",
+            "Credit_Behavior__c": "Increase (+)",
+            "Debit_Behavior__c": "Decrease (-)"
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef3"
+            },
+            "COA_Code__c": 500,
+            "Name": "Expense",
+            "Code_Minimum__c": 501,
+            "Code_Maximum__c": 599,
+            "Financial_Report__c": "Income Statement",
+            "Credit_Behavior__c": "Decrease (-)",
+            "Debit_Behavior__c": "Increase (+)"
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef4"
+            },
+            "COA_Code__c": 100,
+            "Name": "Asset",
+            "Code_Minimum__c": 101,
+            "Code_Maximum__c": 199,
+            "Financial_Report__c": "Balance Sheet",
+            "Credit_Behavior__c": "Decrease (-)",
+            "Debit_Behavior__c": "Increase (+)"
+        },
+        {
+            "attributes": {
+                "type": "Chart_of_Account_Type__c",
+                "referenceId": "Chart_of_Account_Type__cRef5"
+            },
+            "COA_Code__c": 200,
+            "Name": "Liability",
+            "Code_Minimum__c": 201,
+            "Code_Maximum__c": 299,
+            "Financial_Report__c": "Balance Sheet",
+            "Credit_Behavior__c": "Increase (+)",
+            "Debit_Behavior__c": "Decrease (-)"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "sobject": "Chart_of_Account__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "coahier-Chart_of_Account__cs.json"
+        ]
+    }
+]

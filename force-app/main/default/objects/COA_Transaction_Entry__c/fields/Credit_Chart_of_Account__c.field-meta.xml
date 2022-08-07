@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Credit_Chart_of_Account__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <externalId>false</externalId>
+    <label>Credit Chart of Account</label>
+    <referenceTo>Chart_of_Account__c</referenceTo>
+    <relationshipLabel>COA Transaction Entries (Credit Chart of Account)</relationshipLabel>
+    <relationshipName>COA_Transaction_Entries2</relationshipName>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Lookup</type>
+</CustomField>

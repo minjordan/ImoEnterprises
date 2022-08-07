@@ -1,0 +1,112 @@
+Change_Log_Entry__c,Description__c,Entity__c,HierarchyPath__c,Hierarchy_Sort_Number__c,Name,KBCExtID__c,Level_Number__c,LineDisplay__c,RecordTypeId,Status__c,Type__c,Errors
+,,Imo Enterprises (IE),,,Chart of Account Type Reports,STO00000099,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Balance Sheet Dashboard,STO00000105,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Chart of Accounts Reports,STO00000104,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Chart of Accounts Records,STO00000103,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Chart of Accounts UI & List,STO00000101,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,IE_S,SFLL-000006,,,0127A000000eg9TQAQ,2-In Progress,Software,All record types except for Program must have a Parent KBCard
+a007A000008lSWuQAM,,Imo Enterprises (IE),,,"Chart of Accounts Object, UI, & List",FEA00000090,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWrQAM,,Imo Enterprises (IE),,,Chart of Account Types Records,STO00000098,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Balance Sheet Dashboard & Reports,FEA00000091,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWtQAM,,Imo Enterprises (IE),,,Chart of Account Object & Record Type,STO00000100,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Balance Sheet,EPC00000085,,,0127A000000eg9QQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Profit & Loss Statement,EPC00000086,,,0127A000000eg9QQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Profit & Loss Revenue Report,STO00000111,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Profit & Loss Operating Expenses Report,STO00000113,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Profit & Loss Taxes Paid Report,STO00000114,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Transaction UI & List,STO00000118,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Balance Sheet Assets Report,STO00000106,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Balance Sheet Liabilities Report,STO00000107,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Profit & Loss Cost of Goods Sold Report,STO00000112,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Profit & Loss Dashboard,STO00000110,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWmQAM,,Imo Enterprises (IE),,,KBCard After Update Trigger,STO00000081,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Chart of Accounts Records & Reports,FEA00000102,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Transactions Object & Record Types,STO00000117,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Transactions Reports,STO00000120,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Transactions Apex,STO00000121,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Profit & Loss Other Expenses Report,STO00000115,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Profit & Loss Master Report,STO00000116,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Balance Sheet Master Report,STO00000109,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Transactions Records,STO00000119,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Balance Sheet Owners Equity Report,STO00000108,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Transactions Apex,FEA00000095,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWrQAM,,Imo Enterprises (IE),,,Chart of Account Type Object & Record Types,STO00000096,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,"Transactions Object, UI, & List",FEA00000093,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Profit & Loss Dashboard & Reports,FEA00000092,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Chart of Accounts,EPC00000084,,,0127A000000eg9QQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Transactions,EPC00000087,,,0127A000000eg9QQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWsQAM,,Imo Enterprises (IE),,,KBCard Hierarchy Old Fashioned Way,STO00000122,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Visualforce page to show KBCard Hierarchy in Tree Format,STO00000082,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWoQAM,"<p>Managed package on the app exchange:</p><p>https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FR65wUAD</p><p><br></p><p>Steps to Install:</p><p><br></p><p>Steps to add to the KBCard Lightning Page:</p><p>in lightning page, use Custom - Managed&gt;AiflyHierarchyView</p><p>in properties on right</p><p>Hierarchy Field API Name is the parent field on KBCard</p><p>Hierarchy View column is Name </p><p>Record Link Behavior is New Tab</p><p>Sorting Order is ASC</p><p><br></p>",Imo Enterprises (IE),,,Install Aifly Hierarchy View,STO00000083,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,IE_SB,SFLL-000003,,,0127A000000eg9TQAQ,1-Backlog,Site Build,All record types except for Program must have a Parent KBCard
+,,Imo Ice Cream & Goods (IG),,,IG_OD,SFLL-000017,,,0127A000000eg9TQAQ,1-Backlog,Operating Documents,All record types except for Program must have a Parent KBCard
+,,Imo Apartments (LL),,,LL_L,SFLL-000010,,,0127A000000eg9TQAQ,1-Backlog,Launch,All record types except for Program must have a Parent KBCard
+,,Imo Ice Cream & Goods (IG),,,IG_S,SFLL-000018,,,0127A000000eg9TQAQ,1-Backlog,Software,All record types except for Program must have a Parent KBCard
+,,Imo Coffee & Bookstore (CB),,,CB_BP,SFLL-000020,,,0127A000000eg9TQAQ,1-Backlog,Business Plan,All record types except for Program must have a Parent KBCard
+,,Imo Apartments (LL),,,LL_OD,SFLL-000011,,,0127A000000eg9TQAQ,1-Backlog,Operating Documents,All record types except for Program must have a Parent KBCard
+,,Imo Ice Cream & Goods (IG),,,IG_SB,SFLL-000015,,,0127A000000eg9TQAQ,1-Backlog,Site Build,All record types except for Program must have a Parent KBCard
+,,Imo Ice Cream & Goods (IG),,,CB_SB,SFLL-000021,,,0127A000000eg9TQAQ,1-Backlog,Site Build,All record types except for Program must have a Parent KBCard
+,,Imo Coffee & Bookstore (CB),,,CB_OD,SFLL-000023,,,0127A000000eg9TQAQ,1-Backlog,Operating Documents,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,LL_R,SFLL-000007,,,0127A000000eg9TQAQ,1-Backlog,Research,All record types except for Program must have a Parent KBCard
+,,Imo Apartments (LL),,,LL_SB,SFLL-000009,,,0127A000000eg9TQAQ,1-Backlog,Site Build,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Imo Entities Object & UI,IESPMF-0007,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,SFLL Superuser,IESPMS-0003,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Human Resources,IE_S-002,,,0127A000000eg9PQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Information Services,IE_S-003,,,0127A000000eg9PQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Kanban Cards Reporting,IESPM-0003,,,0127A000000eg9QQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Imo Entities,IESPM-0004,,,0127A000000eg9QQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Kanban Card User Interfaces,IESPMF-0003,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,IE_OD,SFLL-000005,,,0127A000000eg9TQAQ,1-Backlog,Operating Documents,All record types except for Program must have a Parent KBCard
+,,Imo Coffee & Bookstore (CB),,,CB_L,SFLL-000022,,,0127A000000eg9TQAQ,1-Backlog,Launch,All record types except for Program must have a Parent KBCard
+,,Imo Coffee & Bookstore (CB),,,CB_S,SFLL-000024,,,0127A000000eg9TQAQ,1-Backlog,Software,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Kanban Dashboards,IESPMF-0006,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,IE_R,SFLL-000001,,,0127A000000eg9TQAQ,1-Backlog,Research,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,IE_L,SFLL-000004,,,0127A000000eg9TQAQ,1-Backlog,Launch,All record types except for Program must have a Parent KBCard
+,,Imo Ice Cream & Goods (IG),,,IG_BP,SFLL-000014,,,0127A000000eg9TQAQ,1-Backlog,Business Plan,All record types except for Program must have a Parent KBCard
+,,Imo Ice Cream & Goods (IG),,,IG_L,SFLL-000016,,,0127A000000eg9TQAQ,1-Backlog,Launch,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Project Management,IE_S-007,,,0127A000000eg9PQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Kanban Cards User Interface,IESPM-0002,,,0127A000000eg9QQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,"Kanban Card Object, Record Types & Permissions",IESPMF-0002,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Kanban Hierarchy Reports,IESPMF-0005,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Change Log,IESPM-0005,,,0127A000000eg9QQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWkQAM,<ul><li>linked kbcard to change log </li><li>modified lists on kbcard</li><li>added fields to kbcard</li><li>changed page layout to kbcard</li><li>auto number addition</li></ul>,Imo Enterprises (IE),,,Program UI & List,IESPMS-0005,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Customer Services,IE_S-006,,,0127A000000eg9PQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Sales & Marketing,IE_S-004,,,0127A000000eg9PQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWlQAM,,Imo Enterprises (IE),,,Generate Hierarchy Records,IESPMS-0001,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Update Source Object w/Hierarchy,IESPMS-0002,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Apartments (LL),,,LL_BP,SFLL-000008,,,0127A000000eg9TQAQ,1-Backlog,Business Plan,All record types except for Program must have a Parent KBCard
+,,Imo Coffee & Bookstore (CB),,,CB_R,SFLL-000019,,,0127A000000eg9TQAQ,1-Backlog,Research,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Finance,IE_S-001,,,0127A000000eg9PQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Operations & Facilities,IE_S-005,,,0127A000000eg9PQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWkQAM,<ul><li>added default date</li><li>added fields</li><li>changed page layout</li></ul>,Imo Enterprises (IE),,,Change Log UI,CLO-000001,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Epic UI & List,IESPMS-0008,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Capability UI & List,IESPMS-0007,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,"IE_S Project Management Epics, Features & Stories Data Entry",IESSPMDES-2,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Project Management Data,IESPM-0006,,,0127A000000eg9QQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Project List Report,IESPMFS-2,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Projects Data Entry,IESSPMDES-1,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Create All KBCards Public Report,STO00000053,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,IE_BP,SFLL-000002,,,0127A000000eg9TQAQ,1-Backlog,Business Plan,All record types except for Program must have a Parent KBCard
+,,Imo Apartments (LL),,,LL_S,SFLL-000012,,,0127A000000eg9TQAQ,1-Backlog,Software,All record types except for Program must have a Parent KBCard
+,,Imo Ice Cream & Goods (IG),,,IG_R,SFLL-000013,,,0127A000000eg9TQAQ,1-Backlog,Research,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Software Utilities,IESPM-0001,,,0127A000000eg9QQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Imo Entities Records & Reporting,IESPMF-0008,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWlQAM,,Imo Enterprises (IE),,,Hierarchy Utilities,IESPMF-0001,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Kanban List Reports,IESPMF-0004,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,"Change Log Object, UI, & List",IESPMF-0009,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Kanban Object & Record Type,IESPMS-0004,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWnQAM,,Imo Enterprises (IE),,,Project UI & List,IESPMS-0006,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Feature UI & List,IESPMS-0009,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Story UI & List,IESPMS-0010,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWqQAM,,Imo Enterprises (IE),,,"Imo Entities Object, UI, Lists",IESPMFS7-1,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Project Management Data Entry,IESPMDE-1,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Epic List Report,IESPMFS-4,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Story List Report,IESPMFS-6,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Imo Entities Records & Reports,IESPMFS8-1,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Kanban Hierarchy Report,IESPMF5-1,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Program List Report,IESPMFS-1,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Feature List Report,IESPMFS-5,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Capability List Report,IESPMFS-3,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Kanban Dashboard,IESPMFS6,,,0127A000000eg9UQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+,,Imo Enterprises (IE),,,Transactions Records and Reports,FEA00000094,,,0127A000000eg9RQAQ,1-Backlog,NA,All record types except for Program must have a Parent KBCard
+a007A000008lSWrQAM,,Imo Enterprises (IE),,,Chart of Account Types IU & List,STO00000097,,,0127A000000eg9UQAQ,3-Completed,NA,All record types except for Program must have a Parent KBCard

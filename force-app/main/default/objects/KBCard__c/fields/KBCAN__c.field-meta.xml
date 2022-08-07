@@ -3,7 +3,7 @@
     <fullName>KBCAN__c</fullName>
     <description>KBCard Auto Number</description>
     <displayFormat>{00000000}</displayFormat>
-    <externalId>true</externalId>
+    <externalId>false</externalId>
     <label>KBCAN</label>
     <trackTrending>false</trackTrending>
     <type>AutoNumber</type>
