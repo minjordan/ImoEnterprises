@@ -23,6 +23,8 @@
     <members>Entity__c</members>
     <members>Chart_of_Account__c</members>
     <members>Chart_of_Account_Type__c</members>
+    <members>COA_Transaction__c</members>
+    <members>COA_Transaction_Entry__c</members>
     <name>CustomObject</name>
   </types>
   <types>
@@ -31,6 +33,8 @@
     <members>Entity__c</members>
     <members>Chart_of_Account__c</members>
     <members>Chart_of_Account_Type__c</members>
+    <members>COA_Transaction__c</members>
+    <members>COA_Transaction_Entry__c</members>
     <name>CustomTab</name>
   </types>
   <types>
@@ -38,11 +42,11 @@
     <name>CompactLayout</name>
   </types>
   <types>
-
     <members>Entity</members>
     <members>ImoE_Dev_Home</members>
     <members>KBCard_Lightning</members>
     <members>Change_Log_Lightning_Page</members>
+    <members>Transaction_Data_Entry</members>
     <name>FlexiPage</name>
   </types>
   <types>
@@ -56,6 +60,8 @@
     <members>Entity__c.Entity Layout</members>
     <members>Chart_of_Account__c-Chart of Account Layout</members>
     <members>Chart_of_Account_Type__c-Chart of Account Type Layout</members>
+    <members>COA_Transaction__c-COA Transaction Layout</members>
+    <members>COA_Transaction_Entry__c-COA Transaction Entry</members>
     <name>Layout</name>
   </types>
   <types>
@@ -72,6 +78,8 @@
     <members>Entity__c.EntitiesHierarchyView</members>
     <members>Chart_of_Account__c.All</members>
     <members>Chart_of_Account_Type__c.All</members>
+    <members>COA_Transaction_Entry__c.All</members>
+    <members>COA_Transaction__c.All</members>
     <name>ListView</name>
   </types>
   <types>

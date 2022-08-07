@@ -36,6 +36,36 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>COA_Transaction_Entry__c.Credit_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>COA_Transaction_Entry__c.Credit_Chart_of_Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>COA_Transaction_Entry__c.Debit_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>COA_Transaction_Entry__c.Debit_Chart_of_Account__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>COA_Transaction__c.Reconciled__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>COA_Transaction__c.Transaction_Notes__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Change_Log__c.Branch__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -51,7 +81,7 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
-        <field>Chart_of_Account_Type__c.Code__c</field>
+        <field>Chart_of_Account_Type__c.COA_Code__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
@@ -215,6 +245,12 @@
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
+        <layout>COA_Transaction_Entry__c-COA Transaction Entry Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>COA_Transaction__c-COA Transaction Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Change_Log__c-Change Log Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -292,6 +328,14 @@
         <recordType>KBCard__c.Story</recordType>
         <visible>true</visible>
     </recordTypeVisibilities>
+    <tabVisibilities>
+        <tab>COA_Transaction_Entry__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <tabVisibilities>
+        <tab>COA_Transaction__c</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
     <tabVisibilities>
         <tab>Change_Log__c</tab>
         <visibility>DefaultOn</visibility>
@@ -444,10 +488,6 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>SelectFilesFromSalesforce</name>
-    </userPermissions>
-    <userPermissions>
-        <enabled>true</enabled>
-        <name>SendExternalEmailAvailable</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>

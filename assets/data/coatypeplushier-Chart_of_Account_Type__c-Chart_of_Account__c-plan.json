@@ -1,0 +1,18 @@
+[
+    {
+        "sobject": "Chart_of_Account_Type__c",
+        "saveRefs": true,
+        "resolveRefs": false,
+        "files": [
+            "coatypeplushier-Chart_of_Account_Type__cs.json"
+        ]
+    },
+    {
+        "sobject": "Chart_of_Account__c",
+        "saveRefs": true,
+        "resolveRefs": true,
+        "files": [
+            "coatypeplushier-Chart_of_Account__cs.json"
+        ]
+    }
+]

@@ -1,0 +1,96 @@
+[
+  {
+    "Name": "Assets",
+    "Account_Info__c": null,
+    "Balance__c": 0,
+    "Code__c": 100,
+    "Allow_Delete__c": false,
+    "Chart_of_Account_Type__r.COA_Code__c": 100
+  },
+  {
+    "Name": "Cash",
+    "Account_Info__c": null,
+    "Balance__c": 0,
+    "Code__c": 101,
+    "Allow_Delete__c": true,
+    "Chart_of_Account_Type__r.COA_Code__c": 100,
+    "Parent_Chart_of_Account__r.Code__c": 100
+  },
+  {
+    "Name": "LMCU Accounts",
+    "Account_Info__c": null,
+    "Balance__c": 0,
+    "Code__c": 110,
+    "Allow_Delete__c": true,
+    "Chart_of_Account_Type__r.COA_Code__c": 100,
+    "Parent_Chart_of_Account__r.Code__c": 100
+  },
+  {
+    "Name": "J and M Joint Checking",
+    "Account_Info__c": null,
+    "Balance__c": 0,
+    "Code__c": 112,
+    "Allow_Delete__c": true,
+    "Chart_of_Account_Type__r.COA_Code__c": 100,
+    "Parent_Chart_of_Account__r.Code__c": 110
+  },
+  {
+    "Name": "M Checking",
+    "Account_Info__c": null,
+    "Balance__c": 0,
+    "Code__c": 117,
+    "Allow_Delete__c": true,
+    "Chart_of_Account_Type__r.COA_Code__c": 100,
+    "Parent_Chart_of_Account__r.Code__c": 110
+  },
+  {
+    "Name": "Liabilities",
+    "Account_Info__c": null,
+    "Balance__c": 0,
+    "Code__c": 200,
+    "Allow_Delete__c": false,
+    "Chart_of_Account_Type__r.COA_Code__c": 200
+  },
+  {
+    "Name": "Owner's Equity",
+    "Account_Info__c": null,
+    "Balance__c": 0,
+    "Code__c": 300,
+    "Allow_Delete__c": true,
+    "Chart_of_Account_Type__r.COA_Code__c": 300
+  },
+  {
+    "Name": "Revenues",
+    "Account_Info__c": null,
+    "Balance__c": 0,
+    "Code__c": 400,
+    "Allow_Delete__c": true,
+    "Chart_of_Account_Type__r.COA_Code__c": 400
+  },
+  {
+    "Name": "Expenses",
+    "Account_Info__c": null,
+    "Balance__c": 0,
+    "Code__c": 500,
+    "Allow_Delete__c": true,
+    "Chart_of_Account_Type__r.COA_Code__c": 500
+  },
+  {
+    "Name": "Utilities",
+    "Account_Info__c": null,
+    "Balance__c": 0,
+    "Code__c": 550,
+    "Allow_Delete__c": true,
+    "Chart_of_Account_Type__r.COA_Code__c": 500,
+    "Parent_Chart_of_Account__r.Code__c": 500
+  },
+  {
+    "Name": "Electricity",
+    "Account_Info__c": null,
+    "Balance__c": 0,
+    "Code__c": 551,
+    "Allow_Delete__c": true,
+    "Chart_of_Account_Type__r.COA_Code__c": 500,
+    "Parent_Chart_of_Account__r.Code__c": 550
+  }
+]

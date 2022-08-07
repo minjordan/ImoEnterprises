@@ -27,7 +27,7 @@
         <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
-                <field>Code__c</field>
+                <field>COA_Code__c</field>
             </layoutItems>
             <layoutItems>
                 <behavior>Required</behavior>

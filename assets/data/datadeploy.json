@@ -1,0 +1,35 @@
+{
+    "jobs": [
+        {
+            "sObjectApiName": "Chart_of_Account_Type__c",
+            "dataFileName": "Chart_of_Account_Type__c.json",
+            "deployConfig": {
+              "externalIdFieldApiName": "COA_Code__c",
+              "maxWaitMinutes": 2,
+              "failOnError": false
+            },
+            "retrieveConfig": {
+              "excludeSystemFields": true,
+              "sortFieldApiNames": ["COA_Code__c"]
+            }
+        },
+        {
+            "sObjectApiName": "Chart_of_Account__c",
+            "dataFileName": "Chart_of_Account__c.json",
+            "deployConfig": {
+              "externalIdFieldApiName": "Code__c",
+              "maxWaitMinutes": 2,
+              "failOnError": false
+            },
+            "retrieveConfig": {
+              "includeFieldApiNames": ["*", "Chart_of_Account_Type__r.COA_Code__c", "Parent_Chart_of_Account__r.Code__c"],
+              "excludeFieldApiNames": ["Parent_Chart_of_Account__c","Chart_of_Account_Type__c","Parent_COA_Code__c","Chart_of_Account_Type_Code__c"],
+              "excludeSystemFields": true,
+              "sortFieldApiNames": ["Code__c"]
+            }
+
+        }
+    ]
+}
+
+
