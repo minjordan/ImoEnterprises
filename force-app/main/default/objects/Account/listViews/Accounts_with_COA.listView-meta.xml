@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Accounts_with_COA</fullName>
+    <columns>Chart_of_Account__c</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Chart_of_Account__c</field>
+        <operation>notEqual</operation>
+    </filters>
+    <label>Accounts with COA</label>
+</ListView>

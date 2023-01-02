@@ -12,6 +12,7 @@
                     <value>&lt;p style=&quot;text-align: center;&quot;&gt;&lt;b style=&quot;font-size: 48px; color: rgb(44, 107, 202);&quot;&gt;ImoE Dev Home Page&lt;/b&gt;&lt;/p&gt;</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:richText</componentName>
+                <identifier>flexipage_richText</identifier>
             </componentInstance>
         </itemInstances>
         <name>top</name>
@@ -45,6 +46,7 @@
                     <value>1</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard</identifier>
             </componentInstance>
         </itemInstances>
         <name>left</name>
@@ -78,6 +80,7 @@
                     <value>1</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:filterListCard</componentName>
+                <identifier>flexipage_filterListCard2</identifier>
             </componentInstance>
         </itemInstances>
         <name>middle</name>
@@ -95,11 +98,13 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>desktopDashboards:embeddedDashboard</componentName>
+                <identifier>desktopDashboards_embeddedDashboard</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>home:recentRecordContainer</componentName>
+                <identifier>home_recentRecordContainer</identifier>
             </componentInstance>
         </itemInstances>
         <name>right</name>

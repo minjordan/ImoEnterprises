@@ -18,6 +18,7 @@
     <members>KBCard__c.Reset_Hierarchy</members>
     <name>WebLink</name>
   <types>
+    <members>Account</members>
     <members>Change_Log__c</members>
     <members>KBCard__c</members>
     <members>Entity__c</members>
@@ -35,6 +36,7 @@
     <members>Chart_of_Account_Type__c</members>
     <members>COA_Transaction__c</members>
     <members>COA_Transaction_Entry__c</members>
+    <members>Register</members>
     <name>CustomTab</name>
   </types>
   <types>
@@ -46,10 +48,12 @@
     <members>ImoE_Dev_Home</members>
     <members>KBCard_Lightning</members>
     <members>Change_Log_Lightning_Page</members>
+    <members>Register</members>
     <members>Transaction_Data_Entry</members>
     <name>FlexiPage</name>
   </types>
   <types>
+    <members>Account-Account Layout</members>
     <members>Change_Log__c-Change Log Layout</members>
     <members>KBCard__c-KBCard Program Layout</members>
     <members>KBCard__c-KBCard Epic Layout</members>
@@ -80,6 +84,8 @@
     <members>Chart_of_Account_Type__c.All</members>
     <members>COA_Transaction_Entry__c.All</members>
     <members>COA_Transaction__c.All</members>
+    <members>Account.Accounts_with_COA</members>
+    
     <name>ListView</name>
   </types>
   <types>
@@ -93,6 +99,10 @@
   <types>
     <members>Imo_Enterprises_UtilityBar</members>
     <name>FlexiPage</name>
+  </types>
+  <types>
+    <members>registerEntry</members>
+    <name>LightningComponentBundle</name>
   </types>
   <types>
     <members>Admin</members>
@@ -144,5 +154,5 @@
     <members>Entity__c.Code__c</members>
     <name>CustomIndex</name>
   </types>
-  <version>53.0</version>
+  <version>56.0</version>
 </Package>

@@ -1,0 +1,24 @@
+Id,Branch__c,Change_Date__c,Name,CLExtID__c,Description__c
+a005e000008wbyTAAQ,,2021-10-24,Create profile and app,CLExtID-0002,Created the Imo Enterprises app and the ImoESuperUser profile
+a005e000008wdfhAAA,,2021-10-24,KanBan object creation,CLExtID-0004,"Created KanBan object, layouts, etc."
+a005e00000KyCINAA3,Feature_8_7_2022,2022-08-07,feature_08_07_2022,CLExtID-0015,more accounting objects changes
+a005e00000Ky9xPAAR,Feature_8_6_2022,2022-08-06,feature_08_06_2022,CLExtID-0014,Entity and Chart of Accounts COA
+a005e000008xWfPAAU,KanbanHierarchyUIandReporting,2021-10-31,Halloween 2021,CLExtID-0006,"Hierarchy for Kanban
+UI Changes for Kanban
+Kanban Reporting"
+a005e00000E4pMKAAZ,feature_01_17_2022,2022-01-17,feature_01_17_2022,CLExtID-0013,remove aifly and fix kbcard hierarchy
+a005e000008z52gAAA,2021_11_07_1,2021-11-07,2021_11_07_1 Misc. KB Card Updates,CLExtID-0007,"Year, Month, Day, Release pattern started
+Misc. KBCard updates"
+a005e00000E4J1vAAF,feature_01_16_2022,2022-01-16,feature_01_16_2022,CLExtID-0012,Chart of Account Type
+a005e0000090TGQAA2,feature-2021_11_12_1_AirflyHierarchyView,2021-11-12,Aifly Hierarchy View,CLExtID-0009,"Install managed package
+
+https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FR65wUAD"
+a005e000008wcCEAAY,,2021-10-24,Change Log Updates,CLExtID-0003,"Updated field security, page layout, and list view for Change Log object."
+a005e00000MZ8kUAAT,Feature_1_2_2023,2023-01-02,feature_01_02_2023,CLExtID-0016,COA & LWC
+a005e0000090CNxAAM,feature-2021_11_11_1   KBCardPageLayouts,2021-11-11,KBCard Page Layouts,CLExtID-0008,Trying to get one record type on add new from related stories on kbcard
+a005e000008wawFAAQ,,2021-10-24,Initialize Org,CLExtID-0001,"Created Change Log Entry object, fields, page layout, and tab in new dev org."
+a005e00000CngeGAAR,feature_12_26_2021,2021-12-26,feature_12_26_2021,CLExtID-0011,
+a005e000008xMA8AAM,feature-ChangeLogAndKBCardEnhancements,2021-10-29,ChangeLog and KBCard Enhancements,CLExtID-0005,"Default today's date on ChangeLog
+Link ChangeLog to User Stories record type on KBCard
+Fix AutoNumbering for KBCards
+Create Validation Rules on KBCards"

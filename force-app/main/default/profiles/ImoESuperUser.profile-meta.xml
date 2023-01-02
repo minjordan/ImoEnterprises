@@ -36,26 +36,6 @@
     <custom>true</custom>
     <fieldPermissions>
         <editable>true</editable>
-        <field>COA_Transaction_Entry__c.Credit_Amount__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>COA_Transaction_Entry__c.Credit_Chart_of_Account__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>COA_Transaction_Entry__c.Debit_Amount__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
-        <field>COA_Transaction_Entry__c.Debit_Chart_of_Account__c</field>
-        <readable>true</readable>
-    </fieldPermissions>
-    <fieldPermissions>
-        <editable>true</editable>
         <field>COA_Transaction__c.Reconciled__c</field>
         <readable>true</readable>
     </fieldPermissions>

@@ -3,6 +3,24 @@
     <actionOverrides>
         <actionName>View</actionName>
         <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Change_Log_Lightning_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Change_Log__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Change_Log_Lightning_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+        <pageOrSobjectType>Change_Log__c</pageOrSobjectType>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
         <content>Entity</content>
         <formFactor>Small</formFactor>
         <skipRecordTypeSelect>false</skipRecordTypeSelect>
@@ -26,24 +44,6 @@
         <type>Flexipage</type>
         <pageOrSobjectType>standard-home</pageOrSobjectType>
     </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Change_Log_Lightning_Page</content>
-        <formFactor>Small</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>Change_Log__c</pageOrSobjectType>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>View</actionName>
-        <comment>Action override created by Lightning App Builder during activation.</comment>
-        <content>Change_Log_Lightning_Page</content>
-        <formFactor>Large</formFactor>
-        <skipRecordTypeSelect>false</skipRecordTypeSelect>
-        <type>Flexipage</type>
-        <pageOrSobjectType>Change_Log__c</pageOrSobjectType>
-    </actionOverrides>
     <brand>
         <headerColor>#0070D2</headerColor>
         <shouldOverrideOrgTheme>false</shouldOverrideOrgTheme>
@@ -52,16 +52,20 @@
     <formFactors>Large</formFactors>
     <isNavAutoTempTabsDisabled>false</isNavAutoTempTabsDisabled>
     <isNavPersonalizationDisabled>false</isNavPersonalizationDisabled>
+    <isNavTabPersistenceDisabled>false</isNavTabPersistenceDisabled>
     <label>Imo Enterprises</label>
     <navType>Standard</navType>
     <tabs>standard-home</tabs>
+    <tabs>Register</tabs>
     <tabs>Change_Log__c</tabs>
     <tabs>KBCard__c</tabs>
+    <tabs>standard-Account</tabs>
+    <tabs>COA_Transaction__c</tabs>
+    <tabs>Chart_of_Account__c</tabs>
+    <tabs>Chart_of_Account_Type__c</tabs>
+    <tabs>Entity__c</tabs>
     <tabs>standard-report</tabs>
     <tabs>standard-Dashboard</tabs>
-    <tabs>Chart_of_Account_Type__c</tabs>
-    <tabs>Chart_of_Account__c</tabs>
-    <tabs>Entity__c</tabs>
     <uiType>Lightning</uiType>
     <utilityBar>Imo_Enterprises_UtilityBar</utilityBar>
 </CustomApplication>

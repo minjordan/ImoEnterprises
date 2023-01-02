@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ListView xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>All</fullName>
+    <columns>COA_Transaction__c</columns>
+    <columns>Transaction_Date__c</columns>
+    <columns>NAME</columns>
+    <columns>Account__c</columns>
+    <columns>Chart_of_Account__c</columns>
+    <columns>DC__c</columns>
+    <columns>Amount__c</columns>
     <filterScope>Everything</filterScope>
     <label>All</label>
 </ListView>
