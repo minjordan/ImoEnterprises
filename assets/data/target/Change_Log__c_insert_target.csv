@@ -1,0 +1,24 @@
+Branch__c,Change_Date__c,Name,Description__c,Errors,Id
+,2021-10-24,Create profile and app,Created the Imo Enterprises app and the ImoESuperUser profile,,a028N0000011hrbQAA
+,2021-10-24,KanBan object creation,"Created KanBan object, layouts, etc.",,a028N0000011hrcQAA
+Feature_8_7_2022,2022-08-07,feature_08_07_2022,more accounting objects changes,,a028N0000011hrdQAA
+Feature_8_6_2022,2022-08-06,feature_08_06_2022,Entity and Chart of Accounts COA,,a028N0000011hreQAA
+KanbanHierarchyUIandReporting,2021-10-31,Halloween 2021,"Hierarchy for Kanban
+UI Changes for Kanban
+Kanban Reporting",,a028N0000011hrfQAA
+feature_01_17_2022,2022-01-17,feature_01_17_2022,remove aifly and fix kbcard hierarchy,,a028N0000011hrgQAA
+2021_11_07_1,2021-11-07,2021_11_07_1 Misc. KB Card Updates,"Year, Month, Day, Release pattern started
+Misc. KBCard updates",,a028N0000011hrhQAA
+feature_01_16_2022,2022-01-16,feature_01_16_2022,Chart of Account Type,,a028N0000011hriQAA
+feature-2021_11_12_1_AirflyHierarchyView,2021-11-12,Aifly Hierarchy View,"Install managed package
+
+https://appexchange.salesforce.com/appxListingDetail?listingId=a0N3A00000FR65wUAD",,a028N0000011hrjQAA
+,2021-10-24,Change Log Updates,"Updated field security, page layout, and list view for Change Log object.",,a028N0000011hrkQAA
+Feature_1_2_2023,2023-01-02,feature_01_02_2023,COA & LWC,,a028N0000011hrlQAA
+feature-2021_11_11_1   KBCardPageLayouts,2021-11-11,KBCard Page Layouts,Trying to get one record type on add new from related stories on kbcard,,a028N0000011hrmQAA
+,2021-10-24,Initialize Org,"Created Change Log Entry object, fields, page layout, and tab in new dev org.",,a028N0000011hrnQAA
+feature_12_26_2021,2021-12-26,feature_12_26_2021,,,a028N0000011hroQAA
+feature-ChangeLogAndKBCardEnhancements,2021-10-29,ChangeLog and KBCard Enhancements,"Default today's date on ChangeLog
+Link ChangeLog to User Stories record type on KBCard
+Fix AutoNumbering for KBCards
+Create Validation Rules on KBCards",,a028N0000011hrpQAA

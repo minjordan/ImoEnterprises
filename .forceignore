@@ -3,7 +3,7 @@
 #
 
 package.xml
-**profile
+#**profile
 # LWC configuration files
 **/jsconfig.json
 **/.eslintrc.json

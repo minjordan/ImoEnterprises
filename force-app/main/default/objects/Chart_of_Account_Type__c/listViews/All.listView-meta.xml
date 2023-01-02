@@ -4,7 +4,7 @@
     <columns>Debit_Behavior__c</columns>
     <columns>Credit_Behavior__c</columns>
     <columns>NAME</columns>
-    <columns>Code__c</columns>
+    <columns>COA_Code__c</columns>
     <columns>Code_Minimum__c</columns>
     <columns>Code_Maximum__c</columns>
     <columns>Financial_Report__c</columns>

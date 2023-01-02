@@ -8,6 +8,7 @@
                     <value>readonly</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Name</fieldItem>
+                <identifier>RecordNameField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -17,6 +18,7 @@
                     <value>required</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Transaction_Date__c</fieldItem>
+                <identifier>RecordTransaction_Date__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -26,15 +28,7 @@
                     <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Transaction_Notes__c</fieldItem>
-            </fieldInstance>
-        </itemInstances>
-        <itemInstances>
-            <fieldInstance>
-                <fieldInstanceProperties>
-                    <name>uiBehavior</name>
-                    <value>required</value>
-                </fieldInstanceProperties>
-                <fieldItem>Record.Account__c</fieldItem>
+                <identifier>RecordTransaction_Notes__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <itemInstances>
@@ -44,6 +38,7 @@
                     <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Reconciled__c</fieldItem>
+                <identifier>RecordReconciled__cField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-9894820d-4585-43c1-8104-091795e2bf5f</name>
@@ -57,6 +52,7 @@
                     <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.OwnerId</fieldItem>
+                <identifier>RecordOwnerIdField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-94b415bf-bf2f-4271-a9f7-fabf3497576a</name>
@@ -70,6 +66,7 @@
                     <value>Facet-9894820d-4585-43c1-8104-091795e2bf5f</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -79,6 +76,7 @@
                     <value>Facet-94b415bf-bf2f-4271-a9f7-fabf3497576a</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column2</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-d17d506a-2c6c-4bbd-8271-ad55e2c54dff</name>
@@ -96,6 +94,7 @@
                     <value>Information</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
+                <identifier>flexipage_fieldSection</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-c27841e0-71a2-4ef7-b96c-42ffd2c3b852</name>
@@ -109,6 +108,7 @@
                     <value>readonly</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.CreatedById</fieldItem>
+                <identifier>RecordCreatedByIdField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-169b289e-f3ee-45ce-a6a3-921b57b45baf</name>
@@ -122,6 +122,7 @@
                     <value>readonly</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.LastModifiedById</fieldItem>
+                <identifier>RecordLastModifiedByIdField</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-af7a494f-d47f-41ff-9fb2-60c8ccfc806c</name>
@@ -135,6 +136,7 @@
                     <value>Facet-169b289e-f3ee-45ce-a6a3-921b57b45baf</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column3</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -144,6 +146,7 @@
                     <value>Facet-af7a494f-d47f-41ff-9fb2-60c8ccfc806c</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:column</componentName>
+                <identifier>flexipage_column4</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-dd6d91bf-89c8-445f-ad76-3e8825683aa0</name>
@@ -161,6 +164,7 @@
                     <value>System Information</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:fieldSection</componentName>
+                <identifier>flexipage_fieldSection2</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -186,6 +190,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -211,6 +216,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer2</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-be817059-a489-4970-954f-fa46c84373f5</name>
@@ -232,6 +238,7 @@
                     <value>accordionSection1</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:accordionSection</componentName>
+                <identifier>fieldsSection</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -249,6 +256,7 @@
                     <value>accordionSection2</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:accordionSection</componentName>
+                <identifier>additionalFieldsSection</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-ab5aa9a4-35c2-4e6f-9c4f-bbdaa6d0a8eb</name>
@@ -266,11 +274,13 @@
                     <value>accordionSection1</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:accordion</componentName>
+                <identifier>flexipage_accordion</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
             <componentInstance>
                 <componentName>force:recordDetailPanelMobile</componentName>
+                <identifier>force_recordDetailPanelMobile</identifier>
             </componentInstance>
         </itemInstances>
         <name>header</name>
@@ -283,7 +293,7 @@
     <masterLabel>Transaction Data Entry</masterLabel>
     <sobjectType>COA_Transaction__c</sobjectType>
     <template>
-        <name>flexipage:recordHomeSimpleViewTemplate</name>
+        <name>flexipage:recordHomeSingleColTemplateDesktop</name>
         <properties>
             <name>enablePageActionConfig</name>
             <value>false</value>

@@ -24,6 +24,7 @@
                     <value>3</value>
                 </componentInstanceProperties>
                 <componentName>force:highlightsPanel</componentName>
+                <identifier>force_highlightsPanel</identifier>
             </componentInstance>
         </itemInstances>
         <name>header</name>
@@ -33,6 +34,7 @@
         <itemInstances>
             <componentInstance>
                 <componentName>force:detailPanel</componentName>
+                <identifier>force_detailPanel</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-b671679f-3b1e-4ca2-a99f-344e657c8249</name>
@@ -62,6 +64,7 @@
                     <value>true</value>
                 </componentInstanceProperties>
                 <componentName>force:relatedListSingleContainer</componentName>
+                <identifier>force_relatedListSingleContainer</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-865e3ed2-2031-4683-898d-6fbea15309da</name>
@@ -83,6 +86,7 @@
                     <value>accordionSection2</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:accordionSection</componentName>
+                <identifier>detailSection</identifier>
             </componentInstance>
         </itemInstances>
         <itemInstances>
@@ -100,6 +104,7 @@
                     <value>accordionSection1</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:accordionSection</componentName>
+                <identifier>relatedListsSection</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-a0487db1-42fb-4eab-82a8-1aecf06a581a</name>
@@ -113,6 +118,7 @@
                     <value>Facet-a0487db1-42fb-4eab-82a8-1aecf06a581a</value>
                 </componentInstanceProperties>
                 <componentName>flexipage:accordion</componentName>
+                <identifier>flexipage_accordion</identifier>
             </componentInstance>
         </itemInstances>
         <name>main</name>

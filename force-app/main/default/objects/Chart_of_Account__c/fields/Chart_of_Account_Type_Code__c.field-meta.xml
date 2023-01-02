@@ -2,7 +2,7 @@
 <CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Chart_of_Account_Type_Code__c</fullName>
     <externalId>false</externalId>
-    <formula>Chart_of_Account_Type__r.Code__c</formula>
+    <formula>Chart_of_Account_Type__r.COA_Code__c</formula>
     <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
     <label>Chart of Account Type Code</label>
     <precision>18</precision>

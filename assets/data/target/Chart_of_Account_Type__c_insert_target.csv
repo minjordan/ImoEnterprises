@@ -1,0 +1,6 @@
+COA_Code__c,Name,Code_Minimum__c,Code_Maximum__c,Financial_Report__c,Credit_Behavior__c,Debit_Behavior__c,Errors,Id
+300,Equity,301,399,Balance Sheet,Increase (+),Decrease (-),,a038N000000q6a1QAA
+400,Revenue,401,499,Income Statement,Increase (+),Decrease (-),,a038N000000q6a2QAA
+500,Expense,501,599,Income Statement,Decrease (-),Increase (+),,a038N000000q6a3QAA
+100,Asset,101,199,Balance Sheet,Decrease (-),Increase (+),,a038N000000q6a4QAA
+200,Liability,201,299,Balance Sheet,Increase (+),Decrease (-),,a038N000000q6a5QAA
